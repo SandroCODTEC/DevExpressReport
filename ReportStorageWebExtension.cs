@@ -10,6 +10,7 @@ namespace SmartReport
 {
     public class ReportStorageWebExtension1 : DevExpress.XtraReports.Web.Extensions.ReportStorageWebExtension
     {
+
         readonly string reportDirectory;
         const string FileExtension = ".repx";
         public ReportStorageWebExtension1(string reportDirectory) {
